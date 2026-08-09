@@ -6,7 +6,14 @@ export function buildWhatsAppLink(message: string, phone: string = DEFAULT_WHATS
   return `https://wa.me/${international}?text=${encodeURIComponent(message)}`;
 }
 
-export function cartOrderMessage(items: { name: string }[]): string {
+export function cartOrderMessage(items: { name: string }[], orderDate?: string): string {
   const list = items.map((item) => `- ${item.name}`).join("\n");
-  return `Halo, saya mau pesan:\n${list}`;
+  const dateLine = orderDate
+    ? `\nTanggal pesanan: ${new Date(orderDate).toLocaleDateString("id-ID", {
+        day: "numeric",
+        month: "long",
+        year: "numeric",
+      })}`
+    : "";
+  return `Halo, saya mau pesan:\n${list}${dateLine}`;
 }

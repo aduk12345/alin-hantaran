@@ -33,4 +33,14 @@ describe("cartOrderMessage", () => {
     const message = cartOrderMessage([{ name: "Item A" }, { name: "Item B" }]);
     expect(message).toBe("Halo, saya mau pesan:\n- Item A\n- Item B");
   });
+
+  it("appends the order date in Indonesian format when provided", () => {
+    const message = cartOrderMessage([{ name: "Item A" }], "2026-08-20");
+    expect(message).toBe("Halo, saya mau pesan:\n- Item A\nTanggal pesanan: 20 Agustus 2026");
+  });
+
+  it("omits the date line when no date is given", () => {
+    const message = cartOrderMessage([{ name: "Item A" }]);
+    expect(message).not.toContain("Tanggal pesanan");
+  });
 });

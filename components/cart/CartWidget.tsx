@@ -11,11 +11,13 @@ import { formatPrice } from "@/lib/format";
 export function CartWidget() {
   const { items, removeItem, clear } = useCart();
   const [open, setOpen] = useState(false);
+  const [orderDate, setOrderDate] = useState("");
+  const [dateInputType, setDateInputType] = useState<"text" | "date">("text");
   const pathname = usePathname();
 
   if (items.length === 0 || pathname?.startsWith("/admin")) return null;
 
-  const waLink = buildWhatsAppLink(cartOrderMessage(items));
+  const waLink = buildWhatsAppLink(cartOrderMessage(items, orderDate || undefined));
 
   return (
     <>
@@ -100,6 +102,18 @@ export function CartWidget() {
             </div>
 
             <div className="border-t border-ink/10 px-5 py-4">
+              <label className="mb-3 block text-sm text-ink/70">
+                Tanggal pesanan <span className="text-ink/40">(opsional)</span>
+                <input
+                  type={dateInputType}
+                  placeholder="Pilih tanggal"
+                  value={orderDate}
+                  onChange={(e) => setOrderDate(e.target.value)}
+                  onFocus={() => setDateInputType("date")}
+                  onBlur={() => !orderDate && setDateInputType("text")}
+                  className="mt-1 w-full rounded-lg border border-ink/15 px-3 py-2 text-sm text-ink focus:border-ink/40 focus:outline-none"
+                />
+              </label>
               <a
                 href={waLink}
                 target="_blank"
