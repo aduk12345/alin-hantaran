@@ -1,0 +1,298 @@
+{
+  "box-mika": {
+    "name": "Box Mika (Beli/Hak Milik)",
+    "slug": "box-mika",
+    "order": 12,
+    "badge": null,
+    "coverNote": "Tutup box terbuat dari mika 0,25m",
+    "featureBullets": [
+      "Tutup box terbuat dari mika 0,25m",
+      "Harga sudah All In (Jasa Hias, Box, Bunga, Aksesoris dll)",
+      "Sudah menjadi hak milik, tidak perlu dikembalikan",
+      "Sewa paket diatas 5 box free ringbox/money box"
+    ],
+    "pricing": {
+      "beli4": 350000,
+      "beli8": 600000
+    },
+    "isActive": true,
+    "images": [
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113943/hantaran-katalog/categories/box-mika/1.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113944/hantaran-katalog/categories/box-mika/2.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113946/hantaran-katalog/categories/box-mika/3.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113947/hantaran-katalog/categories/box-mika/4.jpg"
+    ]
+  },
+  "classic-brown": {
+    "name": "Classic Brown",
+    "slug": "classic-brown",
+    "order": 7,
+    "badge": null,
+    "coverNote": "Tutup akrilik persegi",
+    "featureBullets": [
+      "Tutup akrilik persegi",
+      "Harga sudah include All in (Jasa Hias, Sewa Box, Bunga, Aksesoris dll)",
+      "Bebas request warna bunga",
+      "Sewa paket diatas 5 box free ringbox/money box"
+    ],
+    "pricing": {
+      "sewa5": 275000,
+      "sewa8": 400000,
+      "perBox": 60000
+    },
+    "isActive": true,
+    "images": [
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113918/hantaran-katalog/categories/classic-brown/1.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113920/hantaran-katalog/categories/classic-brown/2.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113922/hantaran-katalog/categories/classic-brown/3.jpg"
+    ]
+  },
+  "classic-gold": {
+    "name": "Classic Gold",
+    "slug": "classic-gold",
+    "order": 9,
+    "badge": null,
+    "coverNote": "Tutup akrilik persegi",
+    "featureBullets": [
+      "Tutup akrilik persegi",
+      "Harga sudah include All in (Jasa Hias, Sewa Box, Bunga, Aksesoris dll)",
+      "Bebas request warna bunga",
+      "Sewa paket diatas 5 box free ringbox/money box"
+    ],
+    "pricing": {
+      "sewa5": 275000,
+      "sewa8": 400000,
+      "perBox": 60000
+    },
+    "isActive": true,
+    "images": [
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113928/hantaran-katalog/categories/classic-gold/1.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113929/hantaran-katalog/categories/classic-gold/2.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113930/hantaran-katalog/categories/classic-gold/3.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113931/hantaran-katalog/categories/classic-gold/4.jpg"
+    ]
+  },
+  "classic-silver": {
+    "name": "Classic Silver",
+    "slug": "classic-silver",
+    "order": 6,
+    "badge": null,
+    "coverNote": "Tutup akrilik persegi",
+    "featureBullets": [
+      "Tutup akrilik persegi",
+      "Harga sudah include All in (Jasa Hias, Sewa Box, Bunga, Aksesoris dll)",
+      "Bebas request warna bunga",
+      "Sewa paket diatas 5 box free ringbox/money box"
+    ],
+    "pricing": {
+      "sewa5": 275000,
+      "sewa8": 400000,
+      "perBox": 60000
+    },
+    "isActive": true,
+    "images": [
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113913/hantaran-katalog/categories/classic-silver/1.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113914/hantaran-katalog/categories/classic-silver/2.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113915/hantaran-katalog/categories/classic-silver/3.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113917/hantaran-katalog/categories/classic-silver/4.jpg"
+    ]
+  },
+  "classic-white": {
+    "name": "Classic White",
+    "slug": "classic-white",
+    "order": 5,
+    "badge": null,
+    "coverNote": "Tutup akrilik persegi",
+    "featureBullets": [
+      "Tutup akrilik persegi",
+      "Harga sudah include All in (Jasa Hias, Sewa Box, Bunga, Aksesoris dll)",
+      "Bebas request warna bunga",
+      "Sewa paket diatas 5 box free ringbox/money box"
+    ],
+    "pricing": {
+      "sewa5": 275000,
+      "sewa8": 400000,
+      "perBox": 60000
+    },
+    "isActive": true,
+    "images": [
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113906/hantaran-katalog/categories/classic-white/1.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113908/hantaran-katalog/categories/classic-white/2.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113910/hantaran-katalog/categories/classic-white/3.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113911/hantaran-katalog/categories/classic-white/4.jpg"
+    ]
+  },
+  "classic-wood": {
+    "name": "Classic Wood",
+    "slug": "classic-wood",
+    "order": 8,
+    "badge": "best-seller",
+    "coverNote": "Tutup akrilik persegi",
+    "featureBullets": [
+      "Tutup akrilik persegi",
+      "Harga sudah include All in (Jasa Hias, Sewa Box, Bunga, Aksesoris dll)",
+      "Bebas request warna bunga",
+      "Sewa paket diatas 5 box free ringbox/money box"
+    ],
+    "pricing": {
+      "sewa5": 275000,
+      "sewa8": 400000,
+      "perBox": 60000
+    },
+    "isActive": true,
+    "images": [
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113923/hantaran-katalog/categories/classic-wood/1.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113924/hantaran-katalog/categories/classic-wood/2.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113925/hantaran-katalog/categories/classic-wood/3.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113926/hantaran-katalog/categories/classic-wood/4.jpg"
+    ]
+  },
+  "gardenia-series": {
+    "name": "Gardenia Series",
+    "slug": "gardenia-series",
+    "order": 4,
+    "badge": "new",
+    "coverNote": "Tutup akrilik persegi",
+    "featureBullets": [
+      "Tutup akrilik persegi",
+      "Harga sudah include All in (Jasa Hias, Sewa Box, Bunga, Aksesoris dll)",
+      "Bebas request warna bunga",
+      "Sewa paket diatas 5 box free ringbox/money box"
+    ],
+    "pricing": {
+      "sewa5": 300000,
+      "sewa8": 450000,
+      "perBox": 65000
+    },
+    "isActive": true,
+    "images": [
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113902/hantaran-katalog/categories/gardenia-series/1.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113903/hantaran-katalog/categories/gardenia-series/2.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113904/hantaran-katalog/categories/gardenia-series/3.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113905/hantaran-katalog/categories/gardenia-series/4.jpg"
+    ]
+  },
+  "hidden-series": {
+    "name": "Hidden Series",
+    "slug": "hidden-series",
+    "order": 10,
+    "badge": null,
+    "coverNote": "Menggunakan tray wood",
+    "featureBullets": [
+      "Menggunakan tray wood",
+      "Harga sudah include All in (Jasa Hias, Sewa Box, Bunga, Aksesoris dll)",
+      "Bebas request warna bunga/kain",
+      "Sewa paket diatas 5 box free ringbox/money box"
+    ],
+    "pricing": {
+      "sewa7": 350000,
+      "perBox": 55000
+    },
+    "isActive": true,
+    "images": [
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113933/hantaran-katalog/categories/hidden-series/1.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113934/hantaran-katalog/categories/hidden-series/2.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113936/hantaran-katalog/categories/hidden-series/3.jpg"
+    ]
+  },
+  "luxury-crystal": {
+    "name": "Luxury Crystal",
+    "slug": "luxury-crystal",
+    "order": 2,
+    "badge": "best-seller",
+    "coverNote": "Tutup akrilik lengkung",
+    "featureBullets": [
+      "Tutup akrilik lengkung",
+      "Harga sudah include All in (Jasa Hias, Sewa Box, Bunga, Aksesoris dll)",
+      "Bebas request warna bunga",
+      "Sewa paket diatas 5 box free ringbox/money box"
+    ],
+    "pricing": {
+      "sewa5": 335000,
+      "sewa8": 550000,
+      "perBox": 75000
+    },
+    "isActive": true,
+    "images": [
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113891/hantaran-katalog/categories/luxury-crystal/1.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113892/hantaran-katalog/categories/luxury-crystal/2.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113894/hantaran-katalog/categories/luxury-crystal/3.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113895/hantaran-katalog/categories/luxury-crystal/4.jpg"
+    ]
+  },
+  "luxury-pearl": {
+    "name": "Luxury Pearl",
+    "slug": "luxury-pearl",
+    "order": 1,
+    "badge": null,
+    "coverNote": "Tutup akrilik lengkung",
+    "featureBullets": [
+      "Tutup akrilik lengkung",
+      "Harga sudah include All in (Jasa Hias, Sewa Box, Bunga, Aksesoris dll)",
+      "Bebas request warna bunga",
+      "Sewa paket diatas 5 box free ringbox/money box"
+    ],
+    "pricing": {
+      "sewa5": 335000,
+      "sewa8": 550000,
+      "perBox": 75000
+    },
+    "isActive": true,
+    "images": [
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113883/hantaran-katalog/categories/luxury-pearl/1.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113885/hantaran-katalog/categories/luxury-pearl/2.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113887/hantaran-katalog/categories/luxury-pearl/3.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113888/hantaran-katalog/categories/luxury-pearl/4.jpg"
+    ]
+  },
+  "luxury-picasso": {
+    "name": "Luxury Picasso",
+    "slug": "luxury-picasso",
+    "order": 3,
+    "badge": "best-seller",
+    "coverNote": "Tutup akrilik lengkung",
+    "featureBullets": [
+      "Tutup akrilik lengkung",
+      "Harga sudah include All in (Jasa Hias, Sewa Box, Bunga, Aksesoris dll)",
+      "Bebas request warna bunga",
+      "Sewa paket diatas 5 box free ringbox/money box"
+    ],
+    "pricing": {
+      "sewa5": 300000,
+      "sewa8": 450000,
+      "perBox": 65000
+    },
+    "isActive": true,
+    "images": [
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113896/hantaran-katalog/categories/luxury-picasso/1.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113898/hantaran-katalog/categories/luxury-picasso/2.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113899/hantaran-katalog/categories/luxury-picasso/3.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113900/hantaran-katalog/categories/luxury-picasso/4.jpg"
+    ]
+  },
+  "rattan-series": {
+    "name": "Rattan Series",
+    "slug": "rattan-series",
+    "order": 11,
+    "badge": null,
+    "coverNote": "Ditutup dengan kain tile",
+    "featureBullets": [
+      "Ditutup dengan kain tile",
+      "Harga sudah include All in (Jasa Hias, Sewa Box, Bunga, Aksesoris dll)",
+      "Bebas request warna bunga/kain",
+      "Sewa paket diatas 5 box free ringbox/money box"
+    ],
+    "pricing": {
+      "sewa5": 200000,
+      "sewa8": 320000,
+      "perBox": 45000
+    },
+    "isActive": true,
+    "images": [
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113938/hantaran-katalog/categories/rattan-series/1.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113939/hantaran-katalog/categories/rattan-series/2.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113940/hantaran-katalog/categories/rattan-series/3.jpg",
+      "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113942/hantaran-katalog/categories/rattan-series/4.jpg"
+    ]
+  }
+}

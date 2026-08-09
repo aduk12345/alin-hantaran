@@ -1,0 +1,27 @@
+{
+  "siteContent/terms": {
+    "title": "WAJIB DIBACA! Syarat & Ketentuan",
+    "points": [
+      "Membayar DP minimal Rp. 100.000 untuk booking tanggal acara",
+      "Jika melakukan pembatalan sepihak, maka DP akan hangus",
+      "Reschedule tanggal minimal H-2 minggu (selama ketersediaan box masih ada)",
+      "Barang yang akan dihias diantar minimal H-14 dan paling lambat H-10 dari tanggal acara",
+      "Pelunasan dibayarkan sebelum pengambilan box seserahan",
+      "Pengambilan box yang sudah di hias bisa diambil H-1 / H-2 sebelum acara dengan menitipkan kartu identitas berupa kartu SIM / KTP dari klien penyewa sebagai jaminan bilamana ada kerusakan box dan tutup akrilik",
+      "Pengembalian box seserahan yang sudah di sewa maksimal H+2 setelah acara",
+      "Jika ada keterlambatan pengembalian box dan tutup akrilik lebih dari H+2 akan dikenakan denda sebesar Rp. 25.000 perbox /Hari",
+      "Setiap pemesanan minimal 5 box free sewa ringbox (tempat cincin)",
+      "Kerusakan atau kehilangan box maupun properti menjadi tanggung jawab klien dengan denda sesuai dengan nilai barang"
+    ]
+  },
+  "siteContent/returnGuide": {
+    "title": "WAJIB DIBACA! Pengembalian Box Seserahan",
+    "points": [
+      "Saat pengembalian box harap box tetap pada posisi semula (seperti digambar atas)",
+      "Bunga & Properti tetap pada posisinya (tidak di preteli atau dicopot untuk memudahkan pengecekan)",
+      "Tutup akrilik & box dalam satu kesatuan",
+      "Tidak ditumpuk atau dicampur dalam tumpukan box dan tutup"
+    ],
+    "image": "https://res.cloudinary.com/vb3jylbu/image/upload/v1786113960/hantaran-katalog/guide/return-box.jpg"
+  }
+}
