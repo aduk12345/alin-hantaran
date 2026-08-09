@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { Playfair_Display, Poppins } from "next/font/google";
 import { CartRoot } from "@/components/cart/CartRoot";
+import { ErudaLoader } from "@/components/dev/ErudaLoader";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -28,6 +29,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       className={`${playfair.variable} ${poppins.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-cream text-ink">
+        {process.env.NODE_ENV === "development" && <ErudaLoader />}
         <CartRoot>{children}</CartRoot>
       </body>
     </html>

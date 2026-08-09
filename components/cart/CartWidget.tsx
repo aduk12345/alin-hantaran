@@ -103,12 +103,14 @@ export function CartWidget() {
             <div className="border-t border-ink/10 px-5 py-4">
               <label className="mb-3 block text-sm text-ink/70">
                 Tanggal pesanan <span className="text-ink/40">(opsional)</span>
-                <input
-                  type="date"
-                  value={orderDate}
-                  onChange={(e) => setOrderDate(e.target.value)}
-                  className="mt-1 w-full min-w-0 rounded-lg border border-ink/15 py-2 pl-3 pr-8 text-sm text-ink focus:border-ink/40 focus:outline-none"
-                />
+                <div className="mt-1 w-full min-w-0 overflow-hidden rounded-lg border border-ink/15 focus-within:border-ink/40">
+                  <input
+                    type="date"
+                    value={orderDate}
+                    onChange={(e) => setOrderDate(e.target.value)}
+                    className="w-full min-w-0 border-0 bg-transparent py-2 pl-3 pr-2 text-sm text-ink focus:outline-none"
+                  />
+                </div>
               </label>
               <a
                 href={waLink}

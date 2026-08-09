@@ -38,7 +38,11 @@ export function CartProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     if (!hydrated) return;
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
+    } catch {
+      // ignore storage write failures (e.g. private browsing quota)
+    }
   }, [items, hydrated]);
 
   function addItem(item: CartItem) {
