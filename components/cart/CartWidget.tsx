@@ -107,7 +107,7 @@ export function CartWidget() {
                   type="date"
                   value={orderDate}
                   onChange={(e) => setOrderDate(e.target.value)}
-                  className="mt-1 w-full rounded-lg border border-ink/15 px-3 py-2 text-sm text-ink focus:border-ink/40 focus:outline-none"
+                  className="mt-1 w-full min-w-0 rounded-lg border border-ink/15 py-2 pl-3 pr-8 text-sm text-ink focus:border-ink/40 focus:outline-none"
                 />
               </label>
               <a
