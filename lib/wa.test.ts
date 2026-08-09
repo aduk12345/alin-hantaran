@@ -7,9 +7,9 @@ describe("buildWhatsAppLink", () => {
     expect(link).toBe("https://wa.me/6281330247617?text=Halo%2C%20saya%20mau%20tanya-tanya");
   });
 
-  it("strips non-digit characters from a custom phone number", () => {
+  it("strips non-digit characters and converts a leading 0 to the 62 country code", () => {
     const link = buildWhatsAppLink("Halo", "0813-3024-7617");
-    expect(link).toBe("https://wa.me/081330247617?text=Halo");
+    expect(link).toBe("https://wa.me/6281330247617?text=Halo");
   });
 
   it("percent-encodes special characters in the message", () => {
