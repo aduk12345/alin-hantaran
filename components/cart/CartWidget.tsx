@@ -103,13 +103,23 @@ export function CartWidget() {
             <div className="border-t border-ink/10 px-5 py-4">
               <label className="mb-3 block text-sm text-ink/70">
                 Tanggal pesanan <span className="text-ink/40">(opsional)</span>
-                <div className="mt-1 w-full min-w-0 overflow-hidden rounded-lg border border-ink/15 focus-within:border-ink/40">
+                <div className="mt-1 flex w-full min-w-0 items-center overflow-hidden rounded-lg border border-ink/15 focus-within:border-ink/40">
                   <input
                     type="date"
                     value={orderDate}
                     onChange={(e) => setOrderDate(e.target.value)}
                     className="w-full min-w-0 border-0 bg-transparent py-2 pl-3 pr-2 text-sm text-ink focus:outline-none"
                   />
+                  {orderDate && (
+                    <button
+                      type="button"
+                      aria-label="Hapus tanggal pesanan"
+                      onClick={() => setOrderDate("")}
+                      className="grid h-8 w-8 shrink-0 place-items-center text-ink/40 hover:text-rose"
+                    >
+                      <CloseIcon className="h-3.5 w-3.5" />
+                    </button>
+                  )}
                 </div>
               </label>
               <a
