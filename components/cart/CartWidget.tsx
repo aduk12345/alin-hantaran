@@ -12,7 +12,6 @@ export function CartWidget() {
   const { items, removeItem, clear } = useCart();
   const [open, setOpen] = useState(false);
   const [orderDate, setOrderDate] = useState("");
-  const [dateInputType, setDateInputType] = useState<"text" | "date">("text");
   const pathname = usePathname();
 
   if (items.length === 0 || pathname?.startsWith("/admin")) return null;
@@ -105,12 +104,9 @@ export function CartWidget() {
               <label className="mb-3 block text-sm text-ink/70">
                 Tanggal pesanan <span className="text-ink/40">(opsional)</span>
                 <input
-                  type={dateInputType}
-                  placeholder="Pilih tanggal"
+                  type="date"
                   value={orderDate}
                   onChange={(e) => setOrderDate(e.target.value)}
-                  onFocus={() => setDateInputType("date")}
-                  onBlur={() => !orderDate && setDateInputType("text")}
                   className="mt-1 w-full rounded-lg border border-ink/15 px-3 py-2 text-sm text-ink focus:border-ink/40 focus:outline-none"
                 />
               </label>
