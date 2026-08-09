@@ -31,7 +31,7 @@ type BlockForm = {
 const DEFAULT_HERO: HeroContent = {
   tagline: "Catalog & Pricelist",
   title: "Hantaran",
-  subtitle: "Sewa & hias box seserahan dengan tampilan elegan — pilih paket, kami urus semuanya.",
+  subtitle: "Sewa box seserahan pernikahan.",
   catalogButtonLabel: "Lihat Katalog",
   whatsappButtonLabel: "Hubungi Kami",
   whatsappMessage: "Halo, saya mau tanya-tanya soal Hantaran",
@@ -306,7 +306,7 @@ export default function AdminContentPage() {
       <h1 className="font-serif-title text-2xl text-ink">Kelola Konten</h1>
 
       <div className="space-y-4">
-        <h2 className="font-serif-title text-lg text-ink">Halaman Utama (Hero)</h2>
+        <h2 className="font-serif-title text-lg text-ink">Halaman Utama</h2>
         <SectionRow title={hero.title} subtitle={hero.tagline} onEdit={() => setEditingHero(true)} />
       </div>
 
@@ -361,7 +361,7 @@ export default function AdminContentPage() {
       )}
 
       {editingHero && (
-        <Modal title="Halaman Utama (Hero)" onClose={() => setEditingHero(false)}>
+        <Modal title="Halaman Utama" onClose={() => setEditingHero(false)}>
           <div className="space-y-4">
             <div>
               <label className="text-sm text-ink/70">Label Kecil</label>

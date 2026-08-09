@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 import { signOut } from "firebase/auth";
 import { getFirebaseAuth } from "@/lib/firebase";
@@ -15,7 +15,12 @@ const LINKS = [
 
 export function AdminNav() {
   const router = useRouter();
+  const pathname = usePathname();
   const [open, setOpen] = useState(false);
+
+  function isActive(href: string) {
+    return href === "/admin" ? pathname === href : pathname?.startsWith(href);
+  }
 
   async function handleLogout() {
     await signOut(getFirebaseAuth());
@@ -25,11 +30,22 @@ export function AdminNav() {
   }
 
   return (
-    <header className="border-b border-gold-light/50 bg-white">
+    <header className="sticky top-0 z-20 border-b border-gold-light/50 bg-white/95 backdrop-blur">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-5 py-4">
-        <nav className="hidden items-center gap-5 text-sm font-medium text-ink sm:flex">
+        <Link href="/admin" className="font-serif-title text-lg text-ink">
+          Hantaran
+        </Link>
+        <nav className="hidden items-center gap-5 text-sm font-medium sm:flex">
           {LINKS.map((link) => (
-            <Link key={link.href} href={link.href} className="hover:text-rose">
+            <Link
+              key={link.href}
+              href={link.href}
+              className={
+                isActive(link.href)
+                  ? "text-rose"
+                  : "text-ink/70 transition hover:text-rose"
+              }
+            >
               {link.label}
             </Link>
           ))}
@@ -62,7 +78,11 @@ export function AdminNav() {
               key={link.href}
               href={link.href}
               onClick={() => setOpen(false)}
-              className="rounded-lg px-2 py-2 hover:bg-blush/40 hover:text-rose"
+              className={
+                isActive(link.href)
+                  ? "rounded-lg bg-blush/50 px-2 py-2 text-rose"
+                  : "rounded-lg px-2 py-2 hover:bg-blush/40 hover:text-rose"
+              }
             >
               {link.label}
             </Link>

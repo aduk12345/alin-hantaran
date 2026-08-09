@@ -340,7 +340,7 @@ const CONTACT: ContactContent = {
 const HERO: HeroContent = {
   tagline: "Catalog & Pricelist",
   title: "Hantaran",
-  subtitle: "Sewa & hias box seserahan dengan tampilan elegan — pilih paket, kami urus semuanya.",
+  subtitle: "Sewa box seserahan pernikahan.",
   catalogButtonLabel: "Lihat Katalog",
   whatsappButtonLabel: "Hubungi Kami",
   whatsappMessage: "Halo, saya mau tanya-tanya soal Hantaran",
